@@ -9,7 +9,6 @@ set(EIGEN3_INCLUDE_DIR "$ENV{EIGEN3_INCLUDE_DIR}")
 set(CMAKE_MODULE_PATH "$ENV{EIGEN3_DIR}")
 set(INCLUDE_DIR include)
 
-# set(HEADER_FILES ${INCLUDE_DIR}/Actor.hpp)
 
 find_package(Eigen3 3.3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
